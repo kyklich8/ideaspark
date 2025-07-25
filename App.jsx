@@ -27,6 +27,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+      <img
+        src="/avatar.jpg"
+        alt="Аватар"
+        className="w-28 h-28 rounded-full shadow-lg border-4 border-blue-500 mb-4"
+      />
       <h1 className="text-3xl font-bold mb-4">💡 IdeaSpark</h1>
       <input
         value={topic}
